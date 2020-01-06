@@ -287,4 +287,4 @@ for (var calContentPageIndex = 0; calContentPageIndex < weekly.length; calConten
 
 var cal = calTemplate.replace('{{page}}', calContent);
 
-fs.writeFileSync('out.html', cal);
+fs.writeFileSync('index.html', cal);

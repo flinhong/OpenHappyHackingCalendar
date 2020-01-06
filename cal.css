@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/earlyaccess/notosansscsliced.css);
+@import url('https://fonts.googleapis.com/earlyaccess/notosansscsliced.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap');
 
 @page {
     size: A4;
@@ -6,7 +7,7 @@
 }
 
 body {
-    font-family: 'Space Mono', monospace, 'Noto Sans SC Sliced';
+    font-family: 'Space Mono', 'Noto Serif SC', monospace, 'Noto Sans SC Sliced';
     font-feature-settings: "liga" 0;
     font-size: 5mm;
 }
@@ -21,13 +22,17 @@ body {
     margin-top: 30mm;
 }
 
+.monthly table tr {
+    display: flex;
+}
+
 .monthly table td {
     width: 24mm;
     font-size: 1.6em;
     padding: 4mm;
     display: inline-block;
     box-sizing: border-box;
-    text-align: right;
+    text-align: center;
 }
 
 .monthly table tr:first-child td {
